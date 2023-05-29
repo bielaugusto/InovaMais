@@ -1,0 +1,49 @@
+#logo{
+    width: min-content;
+    margin: 100px 50px;
+}
+
+#form{
+    color: #fdfdfd;
+    bottom: 0;
+    background-color: #7DBF4E;
+    padding: 20px 40px;
+    border-style: none;
+    border-top-left-radius:50px;
+    border-top-right-radius: 50px;
+
+}
+
+@media (min-width:500px) {
+    #form{
+        border-bottom-left-radius:50px;
+        border-bottom-right-radius: 50px;
+    }
+}
+
+
+
+#title{
+    text-align: center;
+    font-weight:bolder;
+    font-size:30pt;
+    margin: 20px 10px;
+}
+
+
+.row{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: #027368;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fdfdfd;
+}
